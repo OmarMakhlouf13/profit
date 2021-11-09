@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Foods and proteines for beginners."
+                android:textColor="#040404"
+                android:textSize="26dp" />
+
+            <ImageView
+                android:id="@+id/imgm"
+                android:layout_width="match_parent"
+                android:layout_height="415dp"
+                app:srcCompat="@drawable/img2" />
+
+            <TextView
+                android:id="@+id/textSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ٍٍٍٍSelect:"
+                android:textColor="#050505"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/wele"
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                app:srcCompat="@drawable/wele" />
+
+            <Button
+                android:id="@+id/butwele"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Protein Calculation" />
+
+            <ImageView
+                android:id="@+id/proten"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/protein" />
+
+            <Button
+                android:id="@+id/buttonProten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="PROTEN"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/food"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/food1" />
+
+            <Button
+                android:id="@+id/buttonFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="FOOD"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
